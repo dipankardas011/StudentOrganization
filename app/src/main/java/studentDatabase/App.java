@@ -54,6 +54,10 @@ public class App extends studentDatabase.Request.User {
         System.out.println(this.stmt.executeUpdate(cmd));
     }
 
+    public String getGreeting() {
+        return "Hello Gradle!!";
+    }
+
     public static void main(String[] args) {
 
         System.out.println("Welcome to student database\n+++++++++++++++++++++++++++");
